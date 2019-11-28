@@ -1,5 +1,7 @@
 remote_theme: thelehhman/texture
 
+show_excerpts: true
+
 texture:
   title: Artem Vasilyev
   tagline: Software Developer

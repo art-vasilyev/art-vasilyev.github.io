@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "Distributing python packages protected with Cython"
-description: Describing how to protect and distribute python application    
 date: 2019-11-25 09:00:00 +0300
-categories: Programming Python
+categories: Python
 ---
-
-# Distributing python packages protected with Cython
 
 One of the possible solutions to protect the source code of a python application is to use Cython. Cython translates source code into C/C++ code and compiles it. Resulting extensions still can be reverse-engineered, but not reversed to equivalent source code (like from byte-code). The problem with distributing compiled extensions is that they are platform-specific. We will use ``wheel`` as a packaging format to solve this issue.
 

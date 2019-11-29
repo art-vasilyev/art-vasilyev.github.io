@@ -1,0 +1,23 @@
+@import 'ext/solarized-light';
+
+div.highlighter-rouge {
+	width: 100vw;
+	position: relative;
+	right: 150px;
+}
+
+.highlight {
+	background-color: #f4f4f4;
+}
+
+div.highlight {
+	padding: 10px 150px;
+}
+
+pre.highlight, code {
+	font-family: 'Consolas', Menlo, monospace;
+	@include fluidType(13px, 16px);
+	line-height: 1.4em;
+	tab-size: 4;
+	background-color: #eaeaea;
+}

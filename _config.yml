@@ -1,6 +1,9 @@
-remote_theme: thelehhman/texture
-
 show_excerpts: true
+
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
 
 texture:
   title: Artem Vasilyev
@@ -9,7 +12,16 @@ texture:
   style: black
   showNav: false
   showPicker: false
+  showNav: true
+  analytics_id: UA-153574991-1
+  disqus_shortname: art-vasilyev
 
   social_links:
     github:  art-vasilyev
     linkedIn: in/art-vasilyev
+
+plugins:                                                                                                                                                            
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
